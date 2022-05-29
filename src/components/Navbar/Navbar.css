@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.navbar{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+    border-radius: 6px;
+}
